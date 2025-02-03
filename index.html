@@ -107,19 +107,7 @@
 
 /* 電腦版綠色區塊排版 */
 @media screen and (min-width: 769px) {
-    .green-content {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
 
-    .green-item {
-        width: 48%; /* 每個項目佔據一半的寬度 */
-    }
-
-    .green-item.full-width {
-        width: 100%; /* 滿寬度 */
-    }
             .flex-row {
                 display: flex;
                 gap: 0px;
@@ -142,18 +130,6 @@
                 width: 50%;
             }
 
-            /* 電腦版綠色區塊排版 */
-            .green-content {
-                justify-content: space-between;
-            }
-
-            .green-item {
-                width: auto;
-            }
-
-            .green-item.full-width {
-                width: 100%;
-            }
         }
     </style>
 </head>
@@ -174,7 +150,7 @@
                         <option value="E">Ｅ班(勤1休1，1/1上班)</option>
                         <option value="F">Ｆ班(勤1休1，1/2上班)</option>
                     </select>
-                    <a href="readme.html">說明</a>
+                    <a href="readme.html">說明</a>　　
                 </div>
 
                 <!-- 時薪和報滿加班費 -->
@@ -183,7 +159,7 @@
                     <input type="number" id="HourMoney" placeholder="時薪" class="small-input" min="0" step="1" style="-moz-appearance: textfield;" oninput="saveHourMoney();">
                 </div>
                 <div class="green-item">
-                    <label>報滿加班費時數：</label>
+                    <label>　　報滿加班費時數：</label>
                     <span id="AllMoney"></span> 小時
                 </div>
 
@@ -211,21 +187,21 @@
                 <option value="11">11</option>
                 <option value="12">12</option>
                     </select>
-                    月
+                    月　
                 </div>
                 <div class="green-item">
                     <label>基本工時：</label>
-                    <span id="BasicHour"></span>
+                    <span id="BasicHour"></span>　
                 </div>
 
                 <!-- 本月工時和加班費資訊 -->
                 <div class="green-item">
                     <label>本月工時：</label>
-                    <span id="WorkHour1"></span>
+                    <span id="WorkHour1"></span>　
                 </div>
                 <div class="green-item">
                     <label>可領加班費：</label>
-                    <span id="WorkMoney"></span>
+                    <span id="WorkMoney"></span>　
                 </div>
                 <div class="green-item">
                     <label>累積工時：</label>
@@ -295,7 +271,7 @@
     <p>　　　　　　　　※　復興分隊　莊伯瀚　製作　※</p>
     <p>☆本表僅供參考，實際數字以超勤報表為準。</p>
     <p>☆若計算有誤，可來電告知，以便修正。</p>
-    <p>☆114.01.31更新。</p>
+    <p>☆114.02.03更新。</p>
 
             </div>
         </div>
