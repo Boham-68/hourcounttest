@@ -105,12 +105,21 @@
     }
         }
 
-        /* 電腦版樣式 */
-        @media screen and (min-width: 769px) {
-            .green-section {
-                width: 100%;
-            }
-            
+/* 電腦版綠色區塊排版 */
+@media screen and (min-width: 769px) {
+    .green-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .green-item {
+        width: 48%; /* 每個項目佔據一半的寬度 */
+    }
+
+    .green-item.full-width {
+        width: 100%; /* 滿寬度 */
+    }
             .flex-row {
                 display: flex;
                 gap: 0px;
